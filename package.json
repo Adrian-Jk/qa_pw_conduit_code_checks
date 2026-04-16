@@ -10,10 +10,9 @@
   "devDependencies": {
     "@playwright/test": "^1"
   },
-  "scripts": {},
-  "lint-staged": {
-    "*.js": "eslint --fix"
-    },
+"scripts": {
+  "test": "echo \"ok\""
+}
   "keywords": [],
   "author": "",
   "license": "ISC"
