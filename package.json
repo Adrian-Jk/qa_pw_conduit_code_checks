@@ -11,6 +11,9 @@
     "@playwright/test": "^1"
   },
   "scripts": {},
+  "lint-staged": {
+    "*.js": "eslint --fix"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC"
