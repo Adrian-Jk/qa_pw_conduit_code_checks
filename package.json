@@ -10,7 +10,9 @@
   "devDependencies": {
     "@playwright/test": "^1"
   },
-  "scripts": {},
+  "scripts": {
+  "prepare": "husky install"
+},
   "keywords": [],
   "author": "",
   "license": "ISC"
