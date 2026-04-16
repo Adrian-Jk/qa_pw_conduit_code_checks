@@ -20,7 +20,6 @@ test.describe("Sign in negative tests", () => {
     await signInPage.clickSignInButton();
     await signInPage.assertErrorMessageContainsText(`email:can't be blank`);
   });
-console.log('test');
   test("Assert error message for wrong password", async () => {
     await signInPage.fillEmailField("test@gmail.com");
     await signInPage.fillPasswordField("1");
