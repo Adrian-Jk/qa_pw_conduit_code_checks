@@ -10,9 +10,9 @@
   "devDependencies": {
     "@playwright/test": "^1"
   },
-"scripts": {
-  "test": "echo \"ok\""
-},
+  "scripts": {
+    "test": "echo \"ok\""
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
